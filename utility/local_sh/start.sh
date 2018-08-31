@@ -1,1 +1,4 @@
-python manage.py runserver --settings=config.settings.local
+echo 'enter django command'
+read var1
+python manage.py $var1 --settings=config.settings.local
+
